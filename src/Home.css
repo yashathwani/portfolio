@@ -1,0 +1,97 @@
+.main-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-around;
+    
+}
+.left-side p{
+    opacity: 0.15;
+    
+}
+.left-side h1{
+    
+    font-weight:400;
+    font-size: 3em;
+    position:relative;
+    
+}
+.left-side h1::after {
+    content: '👋';
+    display: inline-block;
+    position: absolute;
+    bottom: 0; 
+    right: -5.5vw; 
+    font-size: 4vw; 
+    animation: wave 2s infinite;
+    transform-origin: bottom right; 
+}
+
+@keyframes wave {
+    0% { transform: rotate( 0.0deg) }
+    10% { transform: rotate(14.0deg) }
+    20% { transform: rotate(-8.0deg) }
+    30% { transform: rotate(14.0deg) }
+    40% { transform: rotate(-4.0deg) }
+    50% { transform: rotate(10.0deg) }
+    60% { transform: rotate( 0.0deg) }
+    100% { transform: rotate( 0.0deg) }
+}
+.profile-pic 
+{
+    height: 80%;
+
+    animation: updown 5s infinite ease-in-out; 
+    
+   
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2%); 
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.resume{
+    text-decoration: none;
+    color:white;
+    padding: 6% 15%;
+    border: 3px solid rgba(210, 42, 42, 0.794);
+    border-radius: 30px;
+
+}
+.resume:hover{
+    background-color: rgba(210, 42, 42, 0.794);
+    color: white;
+}
+.contact{
+    color: white;
+    text-decoration: none;
+    padding: 6% 10%;
+    
+    border: 3px solid rgba(210, 42, 42, 0.794);
+    background-color: rgba(210, 42, 42, 0.794);
+    margin-left: 7%;
+    border-radius: 40px;
+}
+.contact:hover{
+    background-color:inherit;
+    
+    
+}
+.resumeandcontact{
+    display: flex;
+    
+}
