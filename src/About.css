@@ -1,0 +1,74 @@
+/* About.css */
+
+.About {
+    height: 100vh;
+    background-color: rgb(35, 37, 57);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .About h2 {
+    font-size: 3.5vw;
+    font-weight: 400;
+  }
+  
+  .Aboutp {
+    width: 60%;
+    font-size: 1.4vw;
+    font-weight: 350;
+    text-align: center; 
+  }
+  
+  .hithere {
+    font-size: 2.5vw;
+    font-weight: 400;
+    margin-bottom: 5%;
+  }
+  
+  .hitherepic {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    width: 80vw;
+    transform:translateY(20%);
+    transition: transform 0.5s ease-in-out; 
+  }
+  
+  .hitherepic.visible {
+    transform:translateY(0%);   
+  }
+  
+  .pic2 {
+    height: 75vh;
+    margin-right: 5vw;
+  }
+  
+  .Aboutmeline {
+    width: 13vw;
+    height: 0.5vh;
+    background-color: rgba(210, 42, 42, 0.794);
+    margin: 20px 0; 
+  }
+  
+  .AboutMe {
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transform:translateY(50%);
+    transition:transform 0.5s ease-in-out;
+    }
+  
+  .AboutMe.visible {
+    transform: translateY(0%);
+  }
+  

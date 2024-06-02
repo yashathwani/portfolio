@@ -1,7 +1,12 @@
 header{
+    position: fixed;
     height: 12vh;
     width: 100%;
     display: flex;
+    background-color: rgb(32, 34, 52);
+    z-index: 1000;
+    top: 0;
+    transition:top 1s ease;
 }
 nav{
     width: 100%;

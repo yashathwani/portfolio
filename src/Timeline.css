@@ -1,0 +1,19 @@
+.timeline{
+    min-height:100vh;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.timeline-item{
+    display: flex;
+    min-width:50vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.timeline-date{
+   
+}
+
